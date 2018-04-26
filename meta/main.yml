@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Praveen Kumar KS
+  description: An Ansible role for installing Apache Spark.
+  company: Red Hat Inc
+  license: Apache
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - precise
+  categories:
+  - system
+dependencies:
+  - { role: "Redhat.java",  when: spark_install_java }
