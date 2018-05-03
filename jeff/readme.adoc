@@ -1,0 +1,3 @@
+. cd jeff
+. oc login https://master.dev37.openshift.opentlc.com
+. ansible-playbook -v spark-ocp-playbook.yml

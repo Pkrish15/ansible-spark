@@ -1,0 +1,5 @@
+---
+
+- name: oc test
+  shell: |
+      oc get project
